@@ -8,14 +8,10 @@ function App() {
   return (
     <Router>
    <>
-
     <Navbar/>
     <Routes>
-          <Route path="/about"element={<About/>}/>
-            
+          <Route path="/about" element={<About titel="test"/>}/>
           <Route path="/user" element={<User/>}/>
-            
-         
         </Routes>
    </>
    </Router>
