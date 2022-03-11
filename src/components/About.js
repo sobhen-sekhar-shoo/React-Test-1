@@ -1,8 +1,9 @@
 import React from "react";
-
-function About() {
+import { propTypes } from "react-bootstrap/esm/Image";
+function About(props) {
+   
     return (
-<h1>About</h1>
+<h1>{props.titel}</h1>
     );
 }
 
